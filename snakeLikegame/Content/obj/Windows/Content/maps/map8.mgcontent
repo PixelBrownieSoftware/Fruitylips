@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/hamza/Own Games/Custom/C#/Completed Projects/2020/Fruitylips/snakeLikegame/Content/maps/map8.PLF</SourceFile>
+  <SourceTime>2020-05-25T17:47:23.6954347+01:00</SourceTime>
+  <DestFile>C:/Users/hamza/Own Games/Custom/C#/Completed Projects/2020/Fruitylips/snakeLikegame/Content/bin/Windows/Content/maps/map8.xnb</DestFile>
+  <DestTime>2020-06-25T14:08:13.1870483+01:00</DestTime>
+  <Importer>importer</Importer>
+  <ImporterTime>2019-08-28T14:26:15.7995774+01:00</ImporterTime>
+  <Processor>processor</Processor>
+  <ProcessorTime>2019-08-28T14:26:15.7995774+01:00</ProcessorTime>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

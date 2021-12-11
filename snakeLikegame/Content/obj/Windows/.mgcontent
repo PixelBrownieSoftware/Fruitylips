@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/hamza/Own Games/Custom/C#/In Development/Snakelikegame/snakeLikegame/snakeLikegame/Content/ambience.wav</File>
+    <File>C:/Users/hamza/Own Games/Custom/C#/In Development/Snakelikegame/snakeLikegame/snakeLikegame/Content/blank.png</File>
+    <File>C:/Users/hamza/Own Games/Custom/C#/In Development/Snakelikegame/snakeLikegame/snakeLikegame/Content/blocks.png</File>
+    <File>C:/Users/hamza/Own Games/Custom/C#/In Development/Snakelikegame/snakeLikegame/snakeLikegame/Content/eat.wav</File>
+    <File>C:/Users/hamza/Own Games/Custom/C#/In Development/Snakelikegame/snakeLikegame/snakeLikegame/Content/endArt.png</File>
+    <File>C:/Users/hamza/Own Games/Custom/C#/In Development/Snakelikegame/snakeLikegame/snakeLikegame/Content/font.png</File>
+    <File>C:/Users/hamza/Own Games/Custom/C#/In Development/Snakelikegame/snakeLikegame/snakeLikegame/Content/maps/map1.PLF</File>
+    <File>C:/Users/hamza/Own Games/Custom/C#/In Development/Snakelikegame/snakeLikegame/snakeLikegame/Content/maps/map10.PLF</File>
+    <File>C:/Users/hamza/Own Games/Custom/C#/In Development/Snakelikegame/snakeLikegame/snakeLikegame/Content/maps/map11.PLF</File>
+    <File>C:/Users/hamza/Own Games/Custom/C#/In Development/Snakelikegame/snakeLikegame/snakeLikegame/Content/maps/map12.PLF</File>
+    <File>C:/Users/hamza/Own Games/Custom/C#/In Development/Snakelikegame/snakeLikegame/snakeLikegame/Content/maps/map13.PLF</File>
+    <File>C:/Users/hamza/Own Games/Custom/C#/In Development/Snakelikegame/snakeLikegame/snakeLikegame/Content/maps/map2.PLF</File>
+    <File>C:/Users/hamza/Own Games/Custom/C#/In Development/Snakelikegame/snakeLikegame/snakeLikegame/Content/maps/map3.PLF</File>
+    <File>C:/Users/hamza/Own Games/Custom/C#/In Development/Snakelikegame/snakeLikegame/snakeLikegame/Content/maps/map4.PLF</File>
+    <File>C:/Users/hamza/Own Games/Custom/C#/In Development/Snakelikegame/snakeLikegame/snakeLikegame/Content/maps/map5.PLF</File>
+    <File>C:/Users/hamza/Own Games/Custom/C#/In Development/Snakelikegame/snakeLikegame/snakeLikegame/Content/maps/map6.PLF</File>
+    <File>C:/Users/hamza/Own Games/Custom/C#/In Development/Snakelikegame/snakeLikegame/snakeLikegame/Content/maps/map7.PLF</File>
+    <File>C:/Users/hamza/Own Games/Custom/C#/In Development/Snakelikegame/snakeLikegame/snakeLikegame/Content/maps/map8.PLF</File>
+    <File>C:/Users/hamza/Own Games/Custom/C#/In Development/Snakelikegame/snakeLikegame/snakeLikegame/Content/maps/map9.PLF</File>
+    <File>C:/Users/hamza/Own Games/Custom/C#/In Development/Snakelikegame/snakeLikegame/snakeLikegame/Content/maps/mapIntro.PLF</File>
+    <File>C:/Users/hamza/Own Games/Custom/C#/In Development/Snakelikegame/snakeLikegame/snakeLikegame/Content/mc.png</File>
+    <File>C:/Users/hamza/Own Games/Custom/C#/In Development/Snakelikegame/snakeLikegame/snakeLikegame/Content/PBRS_LOGO_2020.png</File>
+    <File>C:/Users/hamza/Own Games/Custom/C#/In Development/Snakelikegame/snakeLikegame/snakeLikegame/Content/PrownieOpeningJingle.wav</File>
+    <File>C:/Users/hamza/Own Games/Custom/C#/In Development/Snakelikegame/snakeLikegame/snakeLikegame/Content/title.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

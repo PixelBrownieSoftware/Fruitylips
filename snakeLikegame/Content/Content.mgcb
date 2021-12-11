@@ -1,0 +1,189 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:Windows
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+/reference:..\..\..\..\..\Custom Libaries\DLLs\BrownieContentImporter.dll
+/reference:..\..\..\..\..\Custom Libaries\DLLs\BrownieEngine.dll
+
+#---------------------------------- Content ---------------------------------#
+
+#begin ambience.wav
+/importer:WavImporter
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:ambience.wav
+
+#begin blank.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:blank.png
+
+#begin blocks.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:blocks.png
+
+#begin eat.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:eat.wav
+
+#begin endArt.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:endArt.png
+
+#begin font.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:font.png
+
+#begin maps/map1.PLF
+/importer:importer
+/processor:processor
+/build:maps/map1.PLF
+
+#begin maps/map10.PLF
+/importer:importer
+/processor:processor
+/build:maps/map10.PLF
+
+#begin maps/map11.PLF
+/importer:importer
+/processor:processor
+/build:maps/map11.PLF
+
+#begin maps/map12.PLF
+/importer:importer
+/processor:processor
+/build:maps/map12.PLF
+
+#begin maps/map13.PLF
+/importer:importer
+/processor:processor
+/build:maps/map13.PLF
+
+#begin maps/map2.PLF
+/importer:importer
+/processor:processor
+/build:maps/map2.PLF
+
+#begin maps/map3.PLF
+/importer:importer
+/processor:processor
+/build:maps/map3.PLF
+
+#begin maps/map4.PLF
+/importer:importer
+/processor:processor
+/build:maps/map4.PLF
+
+#begin maps/map5.PLF
+/importer:importer
+/processor:processor
+/build:maps/map5.PLF
+
+#begin maps/map6.PLF
+/importer:importer
+/processor:processor
+/build:maps/map6.PLF
+
+#begin maps/map7.PLF
+/importer:importer
+/processor:processor
+/build:maps/map7.PLF
+
+#begin maps/map8.PLF
+/importer:importer
+/processor:processor
+/build:maps/map8.PLF
+
+#begin maps/map9.PLF
+/importer:importer
+/processor:processor
+/build:maps/map9.PLF
+
+#begin maps/mapIntro.PLF
+/importer:importer
+/processor:processor
+/build:maps/mapIntro.PLF
+
+#begin mc.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:mc.png
+
+#begin PBRS_LOGO_2020.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:PBRS_LOGO_2020.png
+
+#begin PrownieOpeningJingle.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:PrownieOpeningJingle.wav
+
+#begin title.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:title.png
+

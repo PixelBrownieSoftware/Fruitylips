@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<globals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <objData>
+    <o_entity>
+      <name>Test</name>
+      <types>
+        <e_variable>
+          <nam>unknwon</nam>
+          <var xsi:type="xsd:string" />
+        </e_variable>
+        <e_variable>
+          <nam>foo</nam>
+          <var xsi:type="xsd:string">money</var>
+        </e_variable>
+        <e_variable>
+          <nam>bar</nam>
+          <var xsi:type="xsd:string">life</var>
+        </e_variable>
+      </types>
+    </o_entity>
+  </objData>
+</globals>

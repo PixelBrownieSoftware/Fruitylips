@@ -1,0 +1,96 @@
+
+        {
+            level.tileSizeX = 20;
+            level.tileSizeY = 20;
+            level.mapSizeX = 40;
+            level.mapSizeY = 40;
+            level.tiles = new ushort[level.mapSizeX * level.mapSizeY];
+
+            {
+                Random ranX = new Random();
+                Random ranY = new Random(2);
+
+                int XP = level.mapSizeX;
+                int YP = level.mapSizeY;
+                int Xa = 0;
+                int Ya = 0;
+
+                for (int i = 0; i < 450; i++)
+                {
+                    Xa = ranX.Next(0, XP);
+                    Ya = ranY.Next(0, YP);
+                    level.tiles[Xa + (level.mapSizeX * Ya)] = 1;
+                }
+
+            }
+
+            {
+                Random ranX = new Random();
+                Random ranY = new Random(2);
+
+                int XP = level.mapSizeX * level.tileSizeX;
+                int YP = level.mapSizeY * level.tileSizeY;
+
+                for (int i = 0; i < 95; i++)
+                {
+                    o_entity pear = new o_entity();
+                    pear.position = new Point(ranX.Next(20, XP), ranY.Next(20, YP));
+                    pear.name = "pear";
+                    level.entities.Add(pear);
+                }
+
+            }
+
+        }
+        level = levels[0];
+
+        MaxfruitCount = 0;
+        CreateEntitiesLoad();
+        MaxfruitCount = fruitCount;
+
+
+##OLD SEGMENT CODE
+        
+            if (back != null)
+                position = back.oldPos;
+            if(name != "player")
+                oldPos = position;
+                if (s_maths.HypotenuseVector(position - front.turningPoint) < 1)
+                {
+                    direction = front.direction;
+                    turningPoint = front.turningPoint;
+                }
+                
+            o_player pl = e_solarHeart.objects.Find(x => x.name == "player").GetComponent<o_player>();
+            if (collisionBox.Intersects(pl.collisionBox))
+            {
+                Game1.AddSnake(pl.GetEnd());
+                e_solarHeart.objects.Remove(this);
+            }
+            
+            if (front != null)
+            {
+                Vector2 frontPos = position - front.position;
+                if (s_maths.HypotenuseVector(frontPos - (front.direction * 15)) > 30)
+                {
+                    Vector2 newDir = frontPos;
+                    newDir.Normalize();
+                    direction = -newDir;
+                }
+            }
+
+
+####REMOVED BOUNDARY TILE
+            
+                case 2:
+                    o_tile tile = new o_tile();
+                    tile.position = ent.position.ToVector2();
+                    tile.tilePos = TwoDToOneDArray(tile.position);
+                    levels[currentLevel].tiles[tile.tilePos] = 2;
+                    tile.name = "gate";
+                    tile.renderer = new s_spriterend();
+                    tile.renderer.SetSprite("blocks", 2);
+                    tile.SnaLengRequirement = (int)ent.GetFlagFloat("blocks");
+                    tile.Start();
+                    objects.Add(tile);
+                    break;
